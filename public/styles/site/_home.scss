@@ -1,0 +1,152 @@
+.jumbotron {
+  background-image: url("../../images/ian-dooley-347950.jpg");
+  width: 90%;
+  height: 70vh;
+  margin: 5% auto 5% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  position: relative;
+  
+  .jumbotron-container {
+	position: absolute;
+	bottom: 0;
+	padding: 2%;
+	width: 100%;
+	
+	  .jumbotron-date {
+		letter-spacing: 5px;
+		padding-left: 2%;
+		font-size: 0.9em;
+	  }
+  
+	  .jumbotron-header {
+		padding: 2%;
+		letter-spacing: 8px;
+		line-height: 1.8;
+		font-size: 1.1em;
+	  }
+	
+  }
+  
+}
+
+.lines {
+  min-height: 100vh;
+  width: 80%;
+  margin: 15% auto 0 auto;
+  .lines-section {
+	display: flex;
+	flex-direction: row;
+	margin-top: 15%;
+	justify-content: space-around;
+	.lines-sideimage {
+	  width: 35vw;
+	  height: 35vh;
+	  background-color: black;
+	}
+	.lines-sidetext {
+	  width: 35%;
+	  padding: 0 3%;
+	  display: flex;
+	  flex-direction: column;
+	  .lines-header {
+		font-weight: 700;
+		letter-spacing: 10px;
+		font-size: 1.4em;
+	  }
+	  .lines-text {
+		letter-spacing: 5px;
+		margin-top: 15%;
+		line-height: 250%;
+	  }
+	  .lines-button {
+		letter-spacing: 2px;
+		color: #30c1fd;
+		padding: 3%;
+		width: 20%;
+		text-align: center;
+		border: 1px solid #30c1fd;
+		margin: 15% auto 0 auto;
+		text-decoration: none;
+		transition: 0.5s;
+	  }
+	  .lines-button:hover {
+		background-color: #30c1fd;
+		color: white;
+	  }
+	}
+  }
+  .section-reversed {
+	flex-direction: row-reverse;
+	.lines-header {
+	  text-align: right;
+	}
+	.lines-text {
+	  text-align: right;
+	}
+  }
+}
+
+.section-line {
+  width: 65%;
+  border-top: 3px solid #2b2728;
+}
+
+.about {
+  width: 80%;
+  margin: 15% auto 0 auto;
+  .about-section {
+	display: flex;
+	flex-direction: row;
+	margin-top: 15%;
+	justify-content: space-around;
+	.about-sidetitle {
+	  width: 50%;
+	  height: 100%;
+	  margin: auto 0;
+	  .about-title {
+		font-weight: 700;
+		letter-spacing: 10px;
+		font-size: 1.6em;
+		line-height: 150%;
+		text-align: center;
+	  }
+	}
+	.about-sidetext {
+	  width: 45%;
+	  padding: 0 3%;
+	  .about-text {
+		letter-spacing: 4px;
+		margin-top: 12%;
+		line-height: 220%;
+	  }
+	}
+  }
+  
+  .section-reversed {
+	flex-direction: row-reverse;
+  }
+  
+}
+
+.end-photo {
+  width: 80%;
+  margin: 15% auto 5% auto;
+  display: block;
+}
+
+.end-title {
+  width: 70%;
+  text-align: center;
+  font-size: 1.55em;
+  font-weight: 700;
+  line-height: 200%;
+  letter-spacing: 5px;
+  margin: 0 auto 5% auto;
+  .title-link {
+	text-decoration: none;
+	color: #30c1fd;
+  }
+}

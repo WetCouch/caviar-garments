@@ -1,0 +1,92 @@
+{% import "mixins/flash-messages.html" as FM %}
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>{{ title|default("Caviar Clothing") }}</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	{# Customise the stylesheet for your site by editing /public/styles/site.sass #}
+	<link href="/styles/site.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+	{# This file provides the default styling for the KeystoneJS Content Editor #}
+	{% if user and user.canAccessKeystone %}
+	<link href="/keystone/styles/content/editor.min.css" rel="stylesheet">
+	{% endif %}
+
+	{# HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+	Safely remove this block if you are not targeting IE8 #}
+	<!--[if lt IE 9]>
+	<script src="//cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.js"></script>
+	<script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	{# Include template-specific stylesheets by extending the css block #}
+	{% block css %}{% endblock %}
+
+	{# Add any other template-specific HEAD tags by extending the head block #}
+	{% block head %}{% endblock %}
+</head>
+
+
+
+<body>
+
+{# HEADER #}
+<div id="header" class="container">
+	<ul class="header-nav" id="nav-left">
+		<li class="nav-element">sklep</li>
+		<li class="nav-element">o nas</li>
+	</ul>
+	<ul class="header-nav" id="nav-right">
+		<li class="nav-element">zaloguj się</li>
+		<li class="nav-element">lookbook</li>
+		<li class="nav-element">koszyk</li>
+	</ul>
+</div>
+
+{# BODY #}
+<div id="body">
+	{% block intro %}{% endblock %}
+	{{ FM.flashMessages(messages) }}
+	{% block content %}{% endblock %}
+</div>
+
+
+{# FOOTER #}
+<div id="footer" class="container">
+	<p class="footer-left">CAVIAR GARMENTS ⓒ 2018</p>
+	<p class="footer-right">MADE WITH <span class="footer-heart">&hearts;</span> BY <a href="https://github.com/WetCouch" class="footer-link">WOJCIECH JANOSZEK</a></p>
+</div>
+
+
+
+
+
+
+
+{# JAVASCRIPT #}
+
+{# jQuery 1.11.3 is included by default, and required by both Bootstrap
+and the KeystoneJS Content Editor. If you are not targeting IE8,
+you can upgrade to 2.1.4 (also bundled) for better performance. #}
+<script src="/js/jquery/jquery-1.11.3.min.js"></script>
+
+
+{# The KeystoneJS Content Editor provides support for ks-editable data attributes,
+which generate links to edit content for users who can access Keystone #}
+{% if user and user.canAccessKeystone %}
+<script src="/keystone/js/content/editor.js"></script>
+{% endif %}
+
+{# Add scripts that are globally required by your site here. #}
+
+{# Include template-specific javascript files by extending the js block #}
+{% block js %}{% endblock %}
+</body>
+</html>

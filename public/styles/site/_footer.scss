@@ -1,0 +1,16 @@
+#footer {
+  padding: 2%;
+  letter-spacing: 4px;
+  font-size: 0.8em;
+  display: flex;
+  justify-content: space-between;
+  .footer-heart {
+	color: red;
+  }
+  .footer-link {
+	letter-spacing: 6px;
+	color: #30c1fd;
+	text-decoration: none;
+	font-weight: 600;
+  }
+}
