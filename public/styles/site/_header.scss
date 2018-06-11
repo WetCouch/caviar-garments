@@ -4,6 +4,7 @@
   display: inline-block;
   padding: 2%;
   width: 35%;
+  margin-bottom: 5%;
 }
 
 #nav-right {
@@ -13,4 +14,17 @@
 .nav-element {
   display: inline-block;
   padding: 3%;
+  .nav-link {
+	text-decoration: none;
+	color: black;
+  }
+  .nav-link:hover {
+	color: #30c1fd;
+  }
+}
+
+.header-logo {
+  margin: 0 auto;
+  width: 20%;
+  position: absolute;
 }

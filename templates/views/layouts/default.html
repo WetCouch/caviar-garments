@@ -41,8 +41,9 @@
 <div id="header" class="container">
 	<ul class="header-nav" id="nav-left">
 		<li class="nav-element">sklep</li>
-		<li class="nav-element">o nas</li>
+		<li class="nav-element"><a class="nav-link" href="/blog">blog</a></li>
 	</ul>
+	<a href="./"><img class="header-logo" src="./images/caviar-logo.svg" alt=""></a>
 	<ul class="header-nav" id="nav-right">
 		<li class="nav-element">zaloguj się</li>
 		<li class="nav-element">lookbook</li>
@@ -52,7 +53,6 @@
 
 {# BODY #}
 <div id="body">
-	{% block intro %}{% endblock %}
 	{{ FM.flashMessages(messages) }}
 	{% block content %}{% endblock %}
 </div>
