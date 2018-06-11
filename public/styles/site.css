@@ -51,8 +51,8 @@ table {
   font-size: 1.2em;
   letter-spacing: 3px;
   display: inline-block;
-  padding: 2%;
-  width: 35%;
+  padding: 5%;
+  width: 25%;
   margin-bottom: 5%; }
 
 #nav-right {
@@ -68,8 +68,9 @@ table {
     color: #30c1fd; }
 
 .header-logo {
-  margin: 0 auto;
-  width: 20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 22%;
   position: absolute; }
 
 .jumbotron {
@@ -225,7 +226,7 @@ table {
       color: black;
       font-size: 1.3em; }
     .post .blog-post-container .blog-text-muted {
-      color: #3b3732;
+      color: #545252;
       font-size: 0.75em;
       letter-spacing: 2px;
       margin: 3% 0; }
@@ -242,3 +243,27 @@ table {
 .post:nth-child(even) {
   display: flex;
   flex-direction: row-reverse; }
+
+.post-container {
+  margin-top: 2%;
+  width: 100%; }
+  .post-container .post-image {
+    width: 100%; }
+  .post-container .post-heading {
+    text-align: center;
+    margin-top: 5%; }
+    .post-container .post-heading .post-info {
+      font-size: 0.9em;
+      letter-spacing: 4px;
+      font-weight: 600; }
+    .post-container .post-heading .post-title {
+      margin-top: 3%;
+      font-size: 1.6em;
+      text-transform: uppercase;
+      letter-spacing: 7px;
+      line-height: 150%; }
+  .post-container .post-text {
+    width: 65%;
+    margin: 5% auto;
+    letter-spacing: 2px;
+    line-height: 125%; }
