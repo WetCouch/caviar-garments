@@ -1,0 +1,48 @@
+{% extends "layouts/default.html" %}
+
+{% block css %}
+<link rel="stylesheet" href="/libraries/lightgallery/css/lightgallery.min.css">
+{% endblock %}
+
+{% block content %}
+<div class="gallery">
+	{% if galleries.length %}
+	<div class="lookbooks-container">
+		{% for gallery in galleries %}
+		<div class="lookbook">
+			<h2 class="lookbook-title">{{ gallery.name }}</h2>
+
+			<div id="gallery{{loop.index}}" class="lookbook-images-container">
+				{% for image in gallery.images.slice(0, 1) %}
+				<a href="{{ image.limit(1920,1080) }}">
+					<img src="{{ image.limit(400,400) }}" class="lookbook-image">
+				</a>
+				{% endfor %}
+				{% for image in gallery.images.slice(1, gallery.images.length) %}
+				<a href="{{ image.limit(1920,1080) }}" class="lookbook-image-hidden">
+					<img src="{{ image.limit(400,400) }}">
+				</a>
+				{% endfor %}
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+	{% else %}
+	<h3 class="lookbook-ifnone">JUŻ WKRÓTCE</h3>
+	{% endif %}
+</div>
+{% endblock %}
+
+{% block js %}
+<script src="/libraries/lightgallery/js/lightgallery.min.js"></script>
+<script type="text/javascript">
+	for (var i = 1; i <= {{galleries.length}}; i++) {
+		lightGallery(document.getElementById('gallery'+i), {
+			hash: true,
+			galleryId: i
+		});
+	}
+</script>
+
+{% endblock %}
+
