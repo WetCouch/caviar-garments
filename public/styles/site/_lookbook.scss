@@ -1,0 +1,30 @@
+.gallery {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  min-height: 70vh;
+  .lookbooks-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	.lookbook {
+	  width: 25%;
+	  .lookbook-image {
+		width: 100%;
+		height: 35vmax;
+		object-fit: cover;
+	  }
+	  
+	  .lookbook-image-hidden {
+		display: none;
+	  }
+	  
+	  .lookbook-title {
+		margin-top: 10%;
+		text-transform: uppercase;
+		color: #333333;
+		letter-spacing: 3px;
+		text-align: center;
+	  }
+	}
+  }
+}

@@ -10,12 +10,10 @@
 	<div class="lookbooks-container">
 		{% for gallery in galleries %}
 		<div class="lookbook">
-			<h2 class="lookbook-title">{{ gallery.name }}</h2>
-
 			<div id="gallery{{loop.index}}" class="lookbook-images-container">
 				{% for image in gallery.images.slice(0, 1) %}
 				<a href="{{ image.limit(1920,1080) }}">
-					<img src="{{ image.limit(400,400) }}" class="lookbook-image">
+					<img src="{{ image.limit(800,800) }}" class="lookbook-image">
 				</a>
 				{% endfor %}
 				{% for image in gallery.images.slice(1, gallery.images.length) %}
@@ -24,6 +22,8 @@
 				</a>
 				{% endfor %}
 			</div>
+
+			<h2 class="lookbook-title">{{ gallery.name }}</h2>
 		</div>
 		{% endfor %}
 	</div>
