@@ -1,0 +1,19 @@
+.shop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+  min-height: 70vh;
+  .shop-category {
+	width: 30%;
+	.shop-title {
+	  letter-spacing: 3px;
+	  font-size: 1.2em;
+	}
+	.shop-desc {
+	  letter-spacing: 1px;
+	  line-height: 130%;
+	  margin-top: 10%;
+	}
+  }
+}

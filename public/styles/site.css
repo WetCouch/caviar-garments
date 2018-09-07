@@ -292,3 +292,19 @@ table {
         color: #333333;
         letter-spacing: 3px;
         text-align: center; }
+
+.shop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+  min-height: 70vh; }
+  .shop .shop-category {
+    width: 30%; }
+    .shop .shop-category .shop-title {
+      letter-spacing: 3px;
+      font-size: 1.2em; }
+    .shop .shop-category .shop-desc {
+      letter-spacing: 1px;
+      line-height: 130%;
+      margin-top: 10%; }
