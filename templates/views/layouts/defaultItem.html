@@ -1,10 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "layouts/default.html" %}
 
-</body>
-</html>
+{% block css %}
+<link rel="stylesheet" href="/libraries/lightgallery/css/lightgallery.min.css">
+{% endblock %}
+
+{% block content %}
+
+<div class="item">
+	<div class="item-images" id="item-img">
+		{% block itemImage %}{% endblock %}
+	</div>
+	<div class="item-content">
+		<h2 class="item-category">
+			{% block itemCategory %}{% endblock %}
+		</h2>
+		<h3 class="item-title">
+			{% block itemTitle %}{% endblock %}
+		</h3>
+		<p class="item-desc">
+			{% block itemDesc %}{% endblock %}
+		</p>
+		<p class="item-price">
+			{% block itemPrice %}{% endblock %}
+		</p>
+		<p class="item-info">
+			Sprzedaż tymczasowo odbywa się za pośrednictwem naszej grupy Caviar Collective na facebooku.
+		</p>
+		<a href="https://www.facebook.com/groups/919578591569593/" class="item-buy">KUP</a>
+	</div>
+</div>
+
+{% endblock %}
+
+{% block js %}
+<script src="/libraries/lightgallery/js/lightgallery.min.js"></script>
+<script>
+	lightGallery(document.getElementById('item-img'))
+</script>
+{% endblock %}
+
