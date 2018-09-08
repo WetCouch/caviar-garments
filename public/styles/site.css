@@ -322,3 +322,50 @@ table {
       letter-spacing: 1px;
       line-height: 130%;
       margin-top: 10%; }
+
+.item {
+  padding-top: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 70vh; }
+  .item .item-images {
+    width: 30%; }
+    .item .item-images .item-image {
+      width: 100%; }
+    .item .item-images .item-image-hidden {
+      display: none; }
+  .item .item-content {
+    margin-top: 5%;
+    width: 30%;
+    margin-left: 10%;
+    color: #2b2728; }
+    .item .item-content .item-category {
+      font-size: 1.6em;
+      letter-spacing: 3px; }
+    .item .item-content .item-title {
+      font-size: 1.45em;
+      letter-spacing: 2px;
+      margin-top: 2%; }
+    .item .item-content .item-desc {
+      margin-top: 5%;
+      letter-spacing: 2px;
+      line-height: 140%; }
+    .item .item-content .item-price {
+      margin-top: 5%;
+      font-size: 1.5em;
+      letter-spacing: 2px;
+      font-weight: 600; }
+    .item .item-content .item-buy {
+      margin-top: 5%;
+      display: inline-block;
+      color: #30c1fd;
+      padding: 1% 2% 1% 2%;
+      border: 1px solid #30c1fd;
+      text-decoration: none;
+      font-size: 1.3em; }
+    .item .item-content .item-info {
+      margin-top: 5%;
+      font-size: 0.8em;
+      color: #545252; }
