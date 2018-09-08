@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url("../../images/ian-dooley-347950.jpg");
+  background-image: url("../../images/jumbotron.jpg");
   width: 90%;
   height: 70vh;
   margin: 7% auto 5% auto;
@@ -35,7 +35,7 @@
 .lines {
   min-height: 100vh;
   width: 80%;
-  margin: 15% auto 0 auto;
+  margin: 15% auto 15% auto;
   .lines-section {
 	display: flex;
 	flex-direction: row;
@@ -43,8 +43,19 @@
 	justify-content: space-around;
 	.lines-sideimage {
 	  width: 35vw;
-	  height: 35vh;
-	  background-color: black;
+	  height: 45vh;
+	}
+	#lines-primal {
+	  background-image: url("../../images/main-primal.jpg");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
+	#lines-prime {
+	  background-image: url("../../images/main-prime.jpg");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
 	}
 	.lines-sidetext {
 	  width: 35%;

@@ -76,7 +76,7 @@ table {
   position: absolute; }
 
 .jumbotron {
-  background-image: url("../../images/ian-dooley-347950.jpg");
+  background-image: url("../../images/jumbotron.jpg");
   width: 90%;
   height: 70vh;
   margin: 7% auto 5% auto;
@@ -103,7 +103,7 @@ table {
 .lines {
   min-height: 100vh;
   width: 80%;
-  margin: 15% auto 0 auto; }
+  margin: 15% auto 15% auto; }
   .lines .lines-section {
     display: flex;
     flex-direction: row;
@@ -111,8 +111,17 @@ table {
     justify-content: space-around; }
     .lines .lines-section .lines-sideimage {
       width: 35vw;
-      height: 35vh;
-      background-color: black; }
+      height: 45vh; }
+    .lines .lines-section #lines-primal {
+      background-image: url("../../images/main-primal.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .lines .lines-section #lines-prime {
+      background-image: url("../../images/main-prime.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
     .lines .lines-section .lines-sidetext {
       width: 35%;
       padding: 0 3%;
@@ -300,10 +309,15 @@ table {
   margin-top: 5%;
   min-height: 70vh; }
   .shop .shop-category {
-    width: 30%; }
+    width: 30%;
+    cursor: pointer; }
     .shop .shop-category .shop-title {
       letter-spacing: 3px;
-      font-size: 1.2em; }
+      font-size: 1.2em;
+      text-align: center; }
+    .shop .shop-category .shop-image {
+      width: 100%;
+      margin-top: 10%; }
     .shop .shop-category .shop-desc {
       letter-spacing: 1px;
       line-height: 130%;

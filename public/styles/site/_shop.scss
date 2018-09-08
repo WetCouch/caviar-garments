@@ -6,9 +6,15 @@
   min-height: 70vh;
   .shop-category {
 	width: 30%;
+	cursor: pointer;
 	.shop-title {
 	  letter-spacing: 3px;
 	  font-size: 1.2em;
+	  text-align: center;
+	}
+	.shop-image {
+	  width: 100%;
+	  margin-top: 10%;
 	}
 	.shop-desc {
 	  letter-spacing: 1px;
