@@ -14,3 +14,16 @@
 	font-weight: 600;
   }
 }
+
+@media screen and (max-width: 800px) {
+  #footer {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 10% 0;
+	text-align: center;
+	.footer-par {
+	  margin-top: 5%;
+	}
+  }
+}
