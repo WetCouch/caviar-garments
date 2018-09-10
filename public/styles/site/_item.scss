@@ -56,3 +56,17 @@
 	}
   }
 }
+
+@media screen and (max-width: 800px) {
+  .item {
+	flex-direction: column;
+	align-items: center;
+	.item-images {
+	  width: 90%;
+	}
+	.item-content {
+	  width: 85%;
+	  margin-top: 15%;
+	}
+  }
+}

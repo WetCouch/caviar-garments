@@ -23,3 +23,14 @@
 	}
   }
 }
+
+@media screen and (max-width: 800px) {
+  .shop {
+	flex-direction: column;
+	align-items: center;
+	.shop-category {
+	  width: 90%;
+	  margin: 15% 0;
+	}
+  }
+}
