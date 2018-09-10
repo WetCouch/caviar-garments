@@ -334,6 +334,22 @@ table {
   display: flex;
   flex-direction: row-reverse; }
 
+@media screen and (max-width: 800px) {
+  .post {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+    margin-bottom: 15%; }
+    .post .blog-post-container {
+      width: 85%; }
+    .post .blog-post-image {
+      width: 80vw;
+      height: 60vh;
+      margin-top: 15%; }
+  .post:nth-child(even) {
+    display: flex;
+    flex-direction: column; } }
+
 .post-container {
   margin-top: 2%;
   width: 100%; }
@@ -358,6 +374,12 @@ table {
     letter-spacing: 2px;
     line-height: 125%; }
 
+@media screen and (max-width: 800px) {
+  .post-container .post-text {
+    width: 85%; }
+    .post-container .post-text p {
+      margin-top: 15%; } }
+
 .gallery {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -380,6 +402,16 @@ table {
         color: #333333;
         letter-spacing: 3px;
         text-align: center; }
+
+@media screen and (max-width: 800px) {
+  .gallery .lookbooks-container {
+    flex-direction: column;
+    align-items: center; }
+    .gallery .lookbooks-container .lookbook {
+      width: 80%;
+      margin-top: 15%; }
+      .gallery .lookbooks-container .lookbook .lookbook-image {
+        height: 70vh; } }
 
 .shop {
   display: flex;
