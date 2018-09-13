@@ -15,6 +15,10 @@
 	.shop-image {
 	  width: 100%;
 	  margin-top: 10%;
+	  transition: 0.5s;
+	}
+	.shop-image:hover {
+	  transform: scale(1.125);
 	}
 	.shop-desc {
 	  letter-spacing: 1px;
