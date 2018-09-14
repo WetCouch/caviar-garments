@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e8ae4ed-c753-460e-b1b3-e179c3cddadf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/styles/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/site/_item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/site/_item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/site/_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/site/_post.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/views/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/post.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +30,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+          <file leaf-file-name=".env" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/.env">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
+                <state relative-caret-position="45">
+                  <caret line="3" column="253" selection-start-line="3" selection-start-column="253" selection-end-line="3" selection-end-column="253" />
                 </state>
               </provider>
             </entry>
@@ -78,11 +80,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="primal.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="primal.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/views/primal.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/views/post.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="435">
+                  <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -109,11 +120,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_post.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_post.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/styles/site/_post.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+                <state relative-caret-position="565">
+                  <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -127,11 +138,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_item.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_item.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/styles/site/_item.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="741">
-                  <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+                <state relative-caret-position="465">
+                  <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -165,7 +176,6 @@
       <list>
         <option value="$PROJECT_DIR$/public/styles/_reset.scss" />
         <option value="$PROJECT_DIR$/templates/views/blog.html" />
-        <option value="$PROJECT_DIR$/templates/views/post.html" />
         <option value="$PROJECT_DIR$/models/Gallery.js" />
         <option value="$PROJECT_DIR$/routes/views/gallery.js" />
         <option value="$PROJECT_DIR$/templates/views/gallery.html" />
@@ -179,13 +189,10 @@
         <option value="$PROJECT_DIR$/public/styles/site.scss" />
         <option value="$PROJECT_DIR$/public/styles/site/_footer.scss" />
         <option value="$PROJECT_DIR$/public/styles/site/_header.scss" />
-        <option value="$PROJECT_DIR$/public/styles/site/_shop.scss" />
         <option value="$PROJECT_DIR$/public/styles/site/_lookbook.scss" />
         <option value="$PROJECT_DIR$/public/styles/site/_blog.scss" />
-        <option value="$PROJECT_DIR$/public/styles/site/_post.scss" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.nvmrc" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/public/styles/site/_layout.scss" />
         <option value="$PROJECT_DIR$/templates/views/layouts/default.html" />
         <option value="$PROJECT_DIR$/templates/views/index.html" />
@@ -193,7 +200,11 @@
         <option value="$PROJECT_DIR$/templates/views/layouts/defaultItem.html" />
         <option value="$PROJECT_DIR$/templates/views/prime.html" />
         <option value="$PROJECT_DIR$/templates/views/primal.html" />
+        <option value="$PROJECT_DIR$/public/styles/site/_shop.scss" />
         <option value="$PROJECT_DIR$/public/styles/site/_item.scss" />
+        <option value="$PROJECT_DIR$/templates/views/post.html" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/public/styles/site/_post.scss" />
       </list>
     </option>
   </component>
@@ -354,12 +365,12 @@
       <workItem from="1536580503766" duration="194000" />
       <workItem from="1536580768943" duration="4257000" />
       <workItem from="1536666981220" duration="1390000" />
-      <workItem from="1536675671582" duration="8366000" />
+      <workItem from="1536675671582" duration="9221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75977000" />
+    <option name="totallyTimeSpent" value="76832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="822" y="23" width="1738" height="1417" extended-state="0" />
@@ -499,13 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/views/blog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -596,20 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/styles/site/_shop.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/styles/site/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.nvmrc">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -634,27 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/styles/site/_post.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keystone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -710,17 +679,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/keystone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/site/_shop.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/site/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/views/primal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        <state relative-caret-position="105">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/styles/site/_item.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+        <state relative-caret-position="465">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="253" selection-start-line="3" selection-start-column="253" selection-end-line="3" selection-end-column="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/site/_post.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
         </state>
       </provider>
     </entry>

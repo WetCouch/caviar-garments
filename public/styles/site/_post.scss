@@ -35,8 +35,20 @@
 
 @media screen and (max-width: 800px) {
   .post-container {
+	
+	.post-heading {
+	  .post-info {
+		margin-top: 20%;
+	  }
+	  
+	  .post-title {
+		margin-top: 20%;
+	  }
+	}
+	
 	.post-text {
 	  width: 85%;
+	  margin-top: 15%;
 	  p {
 		margin-top: 15%;
 	  }

@@ -7,7 +7,7 @@
 						<h2>Invalid Post.</h2>
 					{% else %}
 						{% if data.post.image.exists %}
-						<img src="{{ data.post._.image.fit(1280,720) }}" class="post-image">
+						<img src="{{ data.post._.image.fit(1920,1080) }}" class="post-image">
 						<header class="post-heading">
 							<div class="post-info">
 								{% if data.post.author %}
