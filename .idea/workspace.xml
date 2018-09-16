@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e8ae4ed-c753-460e-b1b3-e179c3cddadf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/site/_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/site/_post.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/views/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/post.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -124,7 +121,7 @@
             <entry file="file://$PROJECT_DIR$/public/styles/site/_post.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="565">
-                  <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+                  <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -365,16 +362,15 @@
       <workItem from="1536580503766" duration="194000" />
       <workItem from="1536580768943" duration="4257000" />
       <workItem from="1536666981220" duration="1390000" />
-      <workItem from="1536675671582" duration="9221000" />
+      <workItem from="1536675671582" duration="9714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76832000" />
+    <option name="totallyTimeSpent" value="77325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="822" y="23" width="1738" height="1417" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2498544" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -731,7 +727,7 @@
     <entry file="file://$PROJECT_DIR$/public/styles/site/_post.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="565">
-          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
         </state>
       </provider>
     </entry>
