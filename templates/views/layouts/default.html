@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<title>{{ title|default("Caviar Garments") }}</title>
+	<!--<title>{{ title|default("Caviar Garments") }}</title>-->
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
 	{# Customise the stylesheet for your site by editing /public/styles/site.sass #}
@@ -18,6 +18,46 @@
 	{% if user and user.canAccessKeystone %}
 	<link href="/keystone/styles/content/editor.min.css" rel="stylesheet">
 	{% endif %}
+
+
+	{% if data.post %}
+		{% if data.post.meta.title %}
+			<title>{{data.post.meta.title}}</title>
+			<meta property="og:title" content="{{data.post.meta.title}}">
+			<meta name="twitter:title" content="{{data.post.meta.title}}">
+		{% else %}
+			<title>{{data.post.title}}</title>
+			<meta property="og:title" content="{{data.post.title}}">
+			<meta name="twitter:title" content="{{data.post.title}}">
+		{% endif %}
+		{% if data.post.meta.description %}
+			<meta name="description" content="{{data.post.meta.description}}">
+			<meta property="og:description" content="{{data.post.meta.description}}">
+			<meta name="twitter:description" content="{{data.post.meta.description}}">
+		{% else %}
+			<meta name="description" content="{{data.post.content.brief}}">
+			<meta property="og:description" content="{{data.post.content.brief}}">
+			<meta name="twitter:description" content="{{data.post.content.brief}}">
+		{% endif %}
+			<meta property="og:type" content="article">
+			<meta name="twitter:card" content="summary_large_image">
+			<meta property="og:image" content="{{data.post.image.url}}">
+			<meta name="twitter:image:src" content="{{data.post.image.url}}">
+			<meta property="og:url" content="{{data.post.fullPostUrl}}">
+			<meta name="twitter:url" content="{{data.post.fullPostUrl}}">
+			<meta property="article:published_time" content="{{data.post.publishedDate}}">
+		{#<!--{% for data.post.categories %}-->
+			<!--<meta property="article:tag" content="{{name}}">-->
+		<!--{% endfor %}-->
+		<!--<meta name="keywords" content="{{# each data.post.categories}}{{name}}, {{/each}}">-->#}
+	{% else %}
+		<title>Caviar Garments</title>
+		<meta name="description" content="Wyjatkowe, zaprojektowane w Polsce ubrania">
+		<meta name="keywords" content="ubrania, bluzy, caviar, streetwear, clothing, garments, hoodie">
+	{% endif %}
+	
+	
+
 
 	{# HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
 	Safely remove this block if you are not targeting IE8 #}
