@@ -21,7 +21,7 @@
 			{% block itemDesc %}{% endblock %}
 		</p>
 		<p class="item-desc">
-			Bluza modyfikowana metodą druku i haftu.
+			{% block itemInfo %}{% endblock %}
 		</p>
 		<p class="item-desc">
 			<strong>Skład:</strong> 80% bawełna, 20% poliester <br>
@@ -29,10 +29,10 @@
 		</p>
 		<p class="item-desc">
 			<strong>Wymiary:</strong> <br>
-			<strong>S:</strong> 56cm x 69,5cm <br>
-			<strong>M:</strong> 61cm x 73,5cm <br>
-			<strong>L:</strong> 63,5cm x 77cm <br>
-			<strong>XL:</strong> 68,5cm x 80cm <br>
+			<strong>S:</strong> {% block sizeS %}{% endblock %} <br>
+			<strong>M:</strong> {% block sizeM %}{% endblock %} <br>
+			<strong>L:</strong> {% block sizeL %}{% endblock %} <br>
+			<strong>XL:</strong> {% block sizeXL %}{% endblock %} <br>
 		</p>
 		<p class="item-price">
 			{% block itemPrice %}{% endblock %}
