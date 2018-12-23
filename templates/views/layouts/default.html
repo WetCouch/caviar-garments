@@ -35,9 +35,9 @@
 			<meta property="og:description" content="{{data.post.meta.description}}">
 			<meta name="twitter:description" content="{{data.post.meta.description}}">
 		{% else %}
-			<meta name="description" content="{{data.post.content.brief}}">
-			<meta property="og:description" content="{{data.post.content.brief}}">
-			<meta name="twitter:description" content="{{data.post.content.brief}}">
+			<meta name="description" content="{{ data.post.content.brief}}">
+			<meta property="og:description" content="{{ data.post.content.brief}}">
+			<meta name="twitter:description" content="{{ data.post.content.brief}}">
 		{% endif %}
 			<meta property="og:type" content="article">
 			<meta name="twitter:card" content="summary_large_image">
@@ -87,6 +87,13 @@
 
 <body>
 
+<!--POPUP GRAPHIC-->
+<div id="popupgraphic">
+	<a id="popupgraphic-button">
+		ZAMKNIJ
+	</a>
+</div>
+
 {# HEADER #}
 <div id="header" class="container">
 	<ul class="header-nav" id="nav-left">
@@ -135,7 +142,8 @@ which generate links to edit content for users who can access Keystone #}
 {% endif %}
 
 {# Add scripts that are globally required by your site here. #}
-
+<script src="./js/cookie-checker.js"></script>
+<script src="./js/popupgraphic-close.js"></script>
 {# Include template-specific javascript files by extending the js block #}
 {% block js %}{% endblock %}
 </body>

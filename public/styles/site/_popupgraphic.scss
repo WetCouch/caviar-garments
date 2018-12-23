@@ -1,0 +1,39 @@
+#popupgraphic {
+  background-image: url("../../images/intro.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  #popupgraphic-button {
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 1em;
+	font-size: 1.2em;
+	color: white;
+	letter-spacing: 4px;
+	position: absolute;
+	bottom: 25%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	transition: 0.5s;
+  }
+  #popupgraphic-button:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  #popupgraphic {
+	background-image: url("../../images/intro-pion.png");
+	#popupgraphic-button {
+	  font-size: 1em;
+	  padding: 0.75em;
+	}
+  }
+}
