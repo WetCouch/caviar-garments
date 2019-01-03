@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8e8ae4ed-c753-460e-b1b3-e179c3cddadf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/jumbotron.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/jumbotron.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/site/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/site/_home.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,7 +42,7 @@
             <entry file="file://$PROJECT_DIR$/templates/views/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="763">
-                  <caret line="80" column="49" lean-forward="true" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
+                  <caret line="79" column="14" lean-forward="true" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -68,7 +69,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="month-checker.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="month-checker.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/js/month-checker.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="75">
@@ -122,11 +123,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/styles/site/_home.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1050">
-                  <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+                <state relative-caret-position="-152">
+                  <caret line="180" column="23" selection-start-line="180" selection-start-column="23" selection-end-line="180" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -196,7 +197,6 @@
         <option value="$PROJECT_DIR$/templates/views/post.html" />
         <option value="$PROJECT_DIR$/public/styles/site/_footer.scss" />
         <option value="$PROJECT_DIR$/models/Post.js" />
-        <option value="$PROJECT_DIR$/public/styles/site/_home.scss" />
         <option value="$PROJECT_DIR$/routes/views/handmade.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/templates/views/shop.html" />
@@ -214,6 +214,7 @@
         <option value="$PROJECT_DIR$/public/js/cookie-checker.js" />
         <option value="$PROJECT_DIR$/public/js/month-checker.js" />
         <option value="$PROJECT_DIR$/templates/views/index.html" />
+        <option value="$PROJECT_DIR$/public/styles/site/_home.scss" />
       </list>
     </option>
   </component>
@@ -232,7 +233,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="535" />
+    <option name="x" value="82" />
     <option name="y" value="23" />
     <option name="width" value="2025" />
     <option name="height" value="1417" />
@@ -387,15 +388,15 @@
       <workItem from="1541451141108" duration="406000" />
       <workItem from="1545598744772" duration="5116000" />
       <workItem from="1546173355875" duration="9000" />
-      <workItem from="1546524204473" duration="604000" />
+      <workItem from="1546524204473" duration="1559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95323000" />
+    <option name="totallyTimeSpent" value="96278000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="535" y="23" width="2025" height="1417" extended-state="0" />
+    <frame x="82" y="23" width="2025" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21407185" />
@@ -609,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/styles/site/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/Post.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -742,13 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/month-checker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/views/blog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -766,7 +753,21 @@
     <entry file="file://$PROJECT_DIR$/templates/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="763">
-          <caret line="80" column="49" lean-forward="true" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
+          <caret line="79" column="14" lean-forward="true" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/month-checker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/site/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="180" column="23" selection-start-line="180" selection-start-column="23" selection-end-line="180" selection-end-column="23" />
         </state>
       </provider>
     </entry>
