@@ -169,6 +169,20 @@
   }
 }
 
+.contact {
+  width: 70%;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 5% auto;
+  letter-spacing: 4px;
+  line-height: 200%;
+  .contact-link {
+	text-decoration: none;
+	color: #30c1fd;
+	word-wrap: break-word;
+  }
+}
+
 
 
 @media screen and (max-width: 800px) {
