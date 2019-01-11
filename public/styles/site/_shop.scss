@@ -1,40 +1,103 @@
-.shop {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 5%;
-  min-height: 70vh;
-  .shop-category {
-	width: 25%;
-	cursor: pointer;
-	.shop-title {
+//.shop {
+//  display: flex;
+//  flex-direction: row;
+//  justify-content: space-around;
+//  margin-top: 5%;
+//  min-height: 70vh;
+//  .shop-category {
+//	width: 25%;
+//	cursor: pointer;
+//	.shop-title {
+//	  letter-spacing: 3px;
+//	  font-size: 1.2em;
+//	  text-align: center;
+//	}
+//	.shop-image {
+//	  width: 100%;
+//	  margin-top: 10%;
+//	  transition: 0.5s;
+//	}
+//	.shop-image:hover {
+//	  transform: scale(1.125);
+//	}
+//	.shop-desc {
+//	  letter-spacing: 1px;
+//	  line-height: 130%;
+//	  margin-top: 10%;
+//	}
+//  }
+//}
+
+.store {
+	min-height: 70vh;
+  
+  .ecwid-store {
+	width: 75%;
+	margin: 0 auto;
+  }
+
+  .store-handmade-info {
+	text-align: center;
+	width: 75%;
+	margin: 5% auto;
+	
+	.store-handmade-title {
 	  letter-spacing: 3px;
-	  font-size: 1.2em;
-	  text-align: center;
+	  font-size: 1.4em;
 	}
-	.shop-image {
-	  width: 100%;
-	  margin-top: 10%;
-	  transition: 0.5s;
-	}
-	.shop-image:hover {
-	  transform: scale(1.125);
-	}
-	.shop-desc {
+	
+	.store-handmade-desc {
 	  letter-spacing: 1px;
 	  line-height: 130%;
-	  margin-top: 10%;
+	  margin-top: 5%;
+	  .store-handmade-mail {
+		text-decoration: none;
+		letter-spacing: 3px;
+		color: #30c1fd;
+		word-wrap: break-word;
+	  }
+	}
+	
+	.store-handmade-more {
+	  text-decoration: none;
+	  color: #30c1fd;
+	  border: 1px solid #30c1fd;
+	  letter-spacing: 3px;
+	  font-size: 1.1em;
+	  padding: 1%;
+	  margin-top: 2%;
+	  display: inline-block;
+	  transition: 0.5s;
+	}
+	
+	.store-handmade-more:hover {
+	  color: white;
+	  background-color: #30c1fd;
 	}
   }
+  
 }
 
 @media screen and (max-width: 800px) {
-  .shop {
-	flex-direction: column;
-	align-items: center;
-	.shop-category {
-	  width: 90%;
-	  margin: 15% 0;
+  //.shop {
+	//flex-direction: column;
+	//align-items: center;
+	//.shop-category {
+	//  width: 90%;
+	//  margin: 15% 0;
+	//}
+  //}
+  
+  .store {
+	.store-handmade-info {
+	  width: 85%;
+	  .store-handmade-desc {
+		margin-top: 10%;
+	  }
+	  .store-handmade-more {
+		margin-top: 10%;
+		padding: 3%;
+	  }
 	}
   }
 }

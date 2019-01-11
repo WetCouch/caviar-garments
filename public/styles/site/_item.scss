@@ -43,6 +43,12 @@
 	  letter-spacing: 2px;
 	  font-weight: 600;
 	}
+	
+	.item-handmade-info-mail {
+	  text-decoration: none;
+	  color: #30c1fd;
+	}
+	
 	.item-buy {
 	  margin-top: 5%;
 	  display: inline-block;
@@ -52,6 +58,8 @@
 	  text-decoration: none;
 	  font-size: 1.15em;
 	  transition: 0.5s;
+	  background-color: white;
+	  cursor: pointer;
 	}
 	.item-buy:hover {
 	  background-color: #30c1fd;
