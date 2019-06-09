@@ -65,6 +65,14 @@
   .store {
 	min-height: 70vh;
 	filter: blur(5px);
+	
+	.shop-free-shipping {
+	  text-align: center;
+	  letter-spacing: 3px;
+	  font-size: 1.05em;
+	  margin-bottom: 2%;
+	  margin-top: 5%;
+	}
 
 	.ecwid-store {
 	  width: 75%;
@@ -160,6 +168,9 @@
 	}
 
 	.store {
+	  .shop-free-shipping {
+		margin-bottom: 10%;
+	  }
 	  .store-handmade-info {
 		width: 85%;
 		.store-handmade-desc {
