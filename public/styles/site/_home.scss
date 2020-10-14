@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url("../../images/jumbotron.jpg");
+  background-image: url("../../images/jumbotron.png");
   width: 90%;
   height: 80vh;
   margin: 7% auto 5% auto;
@@ -7,103 +7,118 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
+	text-shadow: 1px 1px 3px #616161;
   position: relative;
-  
+
   .jumbotron-container {
-	position: absolute;
-	bottom: 0;
-	padding: 2%;
-	width: 100%;
-	
-	  .jumbotron-date {
-		letter-spacing: 5px;
-		padding-left: 2%;
-		font-size: 0.95em;
-	  }
-  
-	  .jumbotron-header {
-		padding: 2%;
-		letter-spacing: 8px;
-		line-height: 1.8;
-		font-size: 1.1em;
-	  }
-	
+    position: absolute;
+    bottom: 0;
+    padding: 2%;
+    width: 100%;
+
+    .jumbotron-date {
+      letter-spacing: 5px;
+      padding-left: 2%;
+      font-size: 0.95em;
+    }
+
+    .jumbotron-header {
+      padding: 2%;
+      letter-spacing: 8px;
+      line-height: 1.8;
+      font-size: 1.1em;
+    }
+
   }
-  
+
 }
 
 .lines {
   min-height: 100vh;
   width: 80%;
   margin: 15% auto 15% auto;
+
   .lines-section {
-	display: flex;
-	flex-direction: row;
-	margin-top: 15%;
-	justify-content: space-around;
-	.lines-sideimage {
-	  width: 35vw;
-	  height: 45vmax;
-	}
-	#lines-primal {
-	  background-image: url("../../images/main-primal.jpg");
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: cover;
-	}
-	#lines-prime {
-	  background-image: url("../../images/main-prime.jpg");
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: cover;
-	}
-	#lines-handmade {
-	  background-image: url("../../images/main-handmade.jpg");
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: cover;
-	}
-	.lines-sidetext {
-	  width: 35%;
-	  padding: 0 3%;
-	  display: flex;
-	  flex-direction: column;
-	  line-height: 200%;
-	  .lines-header {
-		font-weight: 700;
-		letter-spacing: 10px;
-		font-size: 1.4em;
-	  }
-	  .lines-text {
-		letter-spacing: 5px;
-		margin-top: 15%;
-		line-height: 250%;
-	  }
-	  .lines-button {
-		letter-spacing: 2px;
-		color: #30c1fd;
-		padding: 3%;
-		width: 20%;
-		text-align: center;
-		border: 1px solid #30c1fd;
-		margin: 15% auto 0 auto;
-		text-decoration: none;
-		transition: 0.5s;
-	  }
-	  .lines-button:hover {
-		background-color: #30c1fd;
-		color: white;
-	  }
-	}
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    justify-content: space-around;
+
+    .lines-sideimage {
+      width: 35vw;
+      height: 45vmax;
+    }
+
+    #lines-primal {
+      background-image: url("../../images/main-primal.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #lines-prime {
+      background-image: url("../../images/main-prime.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #lines-handmade {
+      background-image: url("../../images/main-handmade.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .lines-sidetext {
+      width: 35%;
+      padding: 0 3%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      line-height: 200%;
+
+      .lines-header {
+        font-weight: 700;
+        letter-spacing: 10px;
+        font-size: 1.4em;
+      }
+
+      .lines-text {
+        letter-spacing: 2px;
+        margin-top: 10%;
+        line-height: 150%;
+      }
+
+      .lines-button {
+        letter-spacing: 2px;
+        color: #30c1fd;
+        padding: 8px 16px;
+        text-align: center;
+        border: 2px solid #30c1fd;
+        margin: 15% auto 0 auto;
+        text-decoration: none;
+        transition: 0.5s;
+        font-weight: 700;
+      }
+
+      .lines-button:hover {
+        background-color: #30c1fd;
+        color: white;
+      }
+    }
   }
+
   .section-reversed {
-	flex-direction: row-reverse;
-	.lines-header {
-	  text-align: right;
-	}
-	.lines-text {
-	  text-align: right;
-	}
+    flex-direction: row-reverse;
+
+    .lines-header {
+      text-align: right;
+    }
+
+    .lines-text {
+      text-align: right;
+    }
   }
 }
 
@@ -115,38 +130,42 @@
 .about {
   width: 80%;
   margin: 15% auto 0 auto;
+
   .about-section {
-	display: flex;
-	flex-direction: row;
-	margin-top: 15%;
-	justify-content: space-around;
-	.about-sidetitle {
-	  width: 50%;
-	  height: 100%;
-	  margin: auto 0;
-	  .about-title {
-		font-weight: 700;
-		letter-spacing: 10px;
-		font-size: 1.6em;
-		line-height: 150%;
-		text-align: center;
-	  }
-	}
-	.about-sidetext {
-	  width: 45%;
-	  padding: 0 3%;
-	  .about-text {
-		letter-spacing: 4px;
-		margin-top: 12%;
-		line-height: 220%;
-	  }
-	}
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    justify-content: space-around;
+
+    .about-sidetitle {
+      width: 50%;
+      height: 100%;
+      margin: auto 0;
+
+      .about-title {
+        font-weight: 700;
+        letter-spacing: 10px;
+        font-size: 1.6em;
+        line-height: 150%;
+        text-align: center;
+      }
+    }
+
+    .about-sidetext {
+      width: 40%;
+      padding: 0 3%;
+
+      .about-text {
+        letter-spacing: 2px;
+        line-height: 175%;
+      }
+    }
   }
-  
+
   .section-reversed {
-	flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
-  
+
 }
 
 .end-photo {
@@ -163,9 +182,10 @@
   line-height: 200%;
   letter-spacing: 5px;
   margin: 0 auto 5% auto;
+
   .title-link {
-	text-decoration: none;
-	color: #30c1fd;
+    text-decoration: none;
+    color: #30c1fd;
   }
 }
 
@@ -176,79 +196,89 @@
   margin: 5% auto;
   letter-spacing: 4px;
   line-height: 200%;
+
   .contact-link {
-	text-decoration: none;
-	color: #30c1fd;
-	word-wrap: break-word;
+    text-decoration: none;
+    color: #30c1fd;
+    word-wrap: break-word;
   }
 }
 
 
-
 @media screen and (max-width: 800px) {
   .jumbotron {
-	.jumbotron-container {
-	  .jumbotron-date {
-		font-size: 0.8em;
-	  }
-	  .jumbotron-header {
-		font-size: 0.95em;
-		padding-right: 15%;
-	  }
-	}
+    .jumbotron-container {
+      .jumbotron-date {
+        font-size: 0.8em;
+      }
+
+      .jumbotron-header {
+        font-size: 0.95em;
+        padding-right: 15%;
+      }
+    }
   }
-  
+
   .lines {
-	margin-top: 20%;
-	.lines-section {
-	  flex-direction: column-reverse;
-	  align-items: center;
-	  .lines-sideimage {
-		margin-top: 20%;
-		width: 85vw;
-		height: 80vh;
-	  }
-	  .lines-sidetext {
-		width: 85%;
-		margin-top: 20%;
-		.lines-header {
-		  text-align: center;
-		  line-height: 150%;
-		}
-		.lines-text {
-		  letter-spacing: 3px;
-		  line-height: 170%;
-		  text-align: justify;
-		}
-		.lines-button {
-		  width: 35%;
-		}
-	  }
-	}
+    margin-top: 20%;
+
+    .lines-section {
+      flex-direction: column-reverse;
+      align-items: center;
+
+      .lines-sideimage {
+        margin-top: 20%;
+        width: 85vw;
+        height: 80vh;
+      }
+
+      .lines-sidetext {
+        width: 85%;
+        margin-top: 20%;
+
+        .lines-header {
+          text-align: center;
+          line-height: 150%;
+        }
+
+        .lines-text {
+          letter-spacing: 2px;
+          line-height: 150%;
+          text-align: justify;
+        }
+
+        .lines-button {
+          width: 35%;
+        }
+      }
+    }
   }
-  
+
   .section-line {
-	margin: 30% auto;
+    margin: 30% auto;
   }
-  
+
   .about {
-	.about-section {
-	  flex-direction: column;
-	  align-items: center;
-	  .about-sidetitle {
-		width: 80%;
-		margin-top: 50%;
-	  }
-	  .about-sidetext {
-		margin-top: 60%;
-		width: 90%;
-		text-align: justify;
-		.about-text {
-		  letter-spacing: 2px;
-		  line-height: 175%;
-		}
-	  }
-	}
+    .about-section {
+      flex-direction: column;
+      align-items: center;
+
+      .about-sidetitle {
+        width: 80%;
+        margin-top: 50%;
+      }
+
+      .about-sidetext {
+        margin-top: 60%;
+        width: 90%;
+        text-align: justify;
+
+        .about-text {
+          letter-spacing: 2px;
+          line-height: 175%;
+        }
+      }
+    }
   }
-  
+
 }

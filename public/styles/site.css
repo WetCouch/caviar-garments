@@ -67,8 +67,7 @@ table {
   letter-spacing: 3px;
   display: inline-block;
   padding: 5%;
-  width: 35%;
-  margin-bottom: 5%; }
+  width: 35%; }
 
 #nav-right {
   float: right; }
@@ -122,7 +121,7 @@ table {
           padding: 0; } }
 
 .jumbotron {
-  background-image: url("../../images/jumbotron.jpg");
+  background-image: url("../../images/jumbotron.png");
   width: 90%;
   height: 80vh;
   margin: 7% auto 5% auto;
@@ -130,6 +129,7 @@ table {
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
+  text-shadow: 1px 1px 3px #616161;
   position: relative; }
   .jumbotron .jumbotron-container {
     position: absolute;
@@ -159,17 +159,17 @@ table {
       width: 35vw;
       height: 45vmax; }
     .lines .lines-section #lines-primal {
-      background-image: url("../../images/main-primal.jpg");
+      background-image: url("../../images/main-primal.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover; }
     .lines .lines-section #lines-prime {
-      background-image: url("../../images/main-prime.jpg");
+      background-image: url("../../images/main-prime.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover; }
     .lines .lines-section #lines-handmade {
-      background-image: url("../../images/main-handmade.jpg");
+      background-image: url("../../images/main-handmade.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover; }
@@ -178,25 +178,26 @@ table {
       padding: 0 3%;
       display: flex;
       flex-direction: column;
+      justify-content: center;
       line-height: 200%; }
       .lines .lines-section .lines-sidetext .lines-header {
         font-weight: 700;
         letter-spacing: 10px;
         font-size: 1.4em; }
       .lines .lines-section .lines-sidetext .lines-text {
-        letter-spacing: 5px;
-        margin-top: 15%;
-        line-height: 250%; }
+        letter-spacing: 2px;
+        margin-top: 10%;
+        line-height: 150%; }
       .lines .lines-section .lines-sidetext .lines-button {
         letter-spacing: 2px;
         color: #30c1fd;
-        padding: 3%;
-        width: 20%;
+        padding: 8px 16px;
         text-align: center;
-        border: 1px solid #30c1fd;
+        border: 2px solid #30c1fd;
         margin: 15% auto 0 auto;
         text-decoration: none;
-        transition: 0.5s; }
+        transition: 0.5s;
+        font-weight: 700; }
       .lines .lines-section .lines-sidetext .lines-button:hover {
         background-color: #30c1fd;
         color: white; }
@@ -230,12 +231,11 @@ table {
         line-height: 150%;
         text-align: center; }
     .about .about-section .about-sidetext {
-      width: 45%;
+      width: 40%;
       padding: 0 3%; }
       .about .about-section .about-sidetext .about-text {
-        letter-spacing: 4px;
-        margin-top: 12%;
-        line-height: 220%; }
+        letter-spacing: 2px;
+        line-height: 175%; }
   .about .section-reversed {
     flex-direction: row-reverse; }
 
@@ -290,8 +290,8 @@ table {
           text-align: center;
           line-height: 150%; }
         .lines .lines-section .lines-sidetext .lines-text {
-          letter-spacing: 3px;
-          line-height: 170%;
+          letter-spacing: 2px;
+          line-height: 150%;
           text-align: justify; }
         .lines .lines-section .lines-sidetext .lines-button {
           width: 35%; }
