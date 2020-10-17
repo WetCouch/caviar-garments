@@ -147,7 +147,7 @@ class Slider {
 }
 
 const slider = new Slider("#slider1", {
-  pauseTime : 3000,
+  pauseTime : 4000,
   generateDots : true,
   generatePrevNext : true,
   prevText : "Poprzedni",
