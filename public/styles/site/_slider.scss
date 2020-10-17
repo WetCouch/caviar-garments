@@ -142,18 +142,19 @@
   cursor: pointer;
   z-index: 2;
   position: absolute;
-  left:0;
-  top:0;
-  width:4rem;
-  height:100%;
+  left: 8px;
+  width: 3.5rem;
+  height: 3.5rem;
   background: rgba(0,0,0,0.1);
   border:0;
   text-indent:-999px;
   overflow:hidden;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .slider-button-next {
   left:auto;
-  right:0;
+  right: 8px;
 }
 .slider-button-prev:focus,
 .slider-button-next:focus {
