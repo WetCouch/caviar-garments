@@ -697,8 +697,14 @@ table {
     font-size: 32px;
     margin: 0 8px;
     padding: 8px;
-    background-color: #2b2728;
+    background-color: #C10505;
     color: white; }
+  .counter__mark {
+    font-size: 32px;
+    margin: 0 4px;
+    color: #C10505;
+    line-height: 40px; }
   .counter__title {
     font-size: 24px;
-    margin-bottom: 16px; }
+    margin-bottom: 16px;
+    color: #C10505; }
