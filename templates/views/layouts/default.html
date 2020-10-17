@@ -116,12 +116,12 @@
 <div id="body">
 	<div class="counter__container">
 		<h3 class="counter__title">EROTICA 2020</h3>
-		<div class="counter" id="clockdiv">
-			<span class="counter__value days"></span><br>
-			<span class="counter__value hours"></span><br>
+		<div class="counter">
+			<span class="counter__value days">0</span><br>
+			<span class="counter__value hours">0</span><br>
 			<span class="counter__mark">:</span><br>
-			<span class="counter__value minutes"></span><br>
-			<span class="counter__value seconds"></span>
+			<span class="counter__value minutes">0</span><br>
+			<span class="counter__value seconds">0</span>
 		</div>
 	</div>
 	{{ FM.flashMessages(messages) }}
@@ -158,7 +158,7 @@ which generate links to edit content for users who can access Keystone #}
 <!--<script src="/./js/cookie-checker.js"></script>-->
 <!--<script src="/./js/popupgraphic-close.js"></script>-->
 <script src="/./js/year-checker.js"></script>
-<script src="/./js/counter.js"></script>
+<!--<script src="/./js/counter.js"></script>-->
 {# Include template-specific javascript files by extending the js block #}
 {% block js %}{% endblock %}
 </body>
